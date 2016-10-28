@@ -1,0 +1,77 @@
+body,html, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+	font-size: 24px;
+	background: #fcebb7;
+}
+
+#billboard {
+	background: url(images/mount-fuji-264247_1920.jpg) no-repeat center center;
+	position: relative;
+	background-size: cover;
+	height: 1000px;
+	width: 	800px;
+	opacity: ;
+	margin: auto;
+}
+
+.narrative {
+	background: #fcebb7;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   	border-width: 25px;
+    border-color: #f8bb6b;
+    border-radius: 75px;
+    border: 10px solid #f8bb6b;
+}
+
+.narrative p {
+	text-align: center;
+    padding-top: 45px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 75px;
+    font-family: garamond, arial;
+}
+
+.button {
+
+	border-radius: 5px;
+	background-color: #3c6b95;
+	border:5px solid #0F255E;
+	height: 70px;
+	width: 120px;
+	margin: auto;
+	margin-bottom: 5px;
+	color: #FFFEBD;
+	font-family: arial;
+	text-align: center;
+}
+
+.button h4 {
+	position: relative;
+    top: 5%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+	text-decoration: none;
+}
+
+.button:hover {
+
+	border-radius: 5px;	
+	background-color: #FFFEBD;
+	border:5px solid #0F255E;
+	height: 70px;
+	width: 120px;
+	margin: auto;
+	margin-bottom: 5px;
+	color: #3c6b95;
+}
+
